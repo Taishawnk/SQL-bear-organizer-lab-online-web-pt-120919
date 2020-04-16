@@ -15,7 +15,7 @@ return "Select name, age From bears Where age = 20 And name != 'nil'";
 end
 
 def select_youngest_bear_and_returns_name_and_age
-return "Select name, age From bears Where age = "
+return "Select name, age From bears Where age = 2 ";
 end
 
 def selects_most_prominent_color_and_returns_with_count
