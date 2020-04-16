@@ -19,7 +19,7 @@ return "Select name, age From bears Where age = 2 ";
 end
 
 def selects_most_prominent_color_and_returns_with_count
- return "Select Count(color) From bears Where color = 'black'"
+ return "Select Count(color) From bears Where color = 'dark brown'"
 end
 
 def counts_number_of_bears_with_goofy_temperaments
