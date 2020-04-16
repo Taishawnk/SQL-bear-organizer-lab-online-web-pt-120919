@@ -11,7 +11,7 @@ def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
 end
 
 def selects_oldest_bear_and_returns_name_and_age
-return "Select name, age From bears Where age = 20 And name != 'nil'" 
+return "Select name, age From bears Where age = 20 And name != 'nil'"; 
 end
 
 def select_youngest_bear_and_returns_name_and_age
@@ -27,6 +27,6 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim
-return "Select(*) From bears Where name = nil"
+return "Select (*) From bears Where name = 'nil';
 end
 
